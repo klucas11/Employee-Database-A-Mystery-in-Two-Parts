@@ -1,4 +1,5 @@
 -- List the following details of each employee: employee number, last name, first name, gender, and salary.
+
 SELECT e.emp_no,
     e.last_name,
     e.first_name,
@@ -12,6 +13,7 @@ ORDER BY emp_no ASC;
 
 
 -- List employees who were hired in 1986.
+
 SELECT last_name,
     first_name,
     hire_date
@@ -114,3 +116,5 @@ SELECT last_name,
 FROM employees
 GROUP BY last_name
 ORDER BY COUNT(last_name) DESC
+
+
